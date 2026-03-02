@@ -63,7 +63,6 @@ SELECT
     ROUND(FCR_Percent, 1)     AS FCR_Percent,
     ROUND(Tone_Sentiment, 2)  AS Tone_Sentiment,
     -- Composite risk score (lower = more at risk)
-
     ROUND(
         (AGAME_Points / 10.0) +
         (Training_Hours * 2) +
